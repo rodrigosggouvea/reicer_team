@@ -1,4 +1,15 @@
 ReicerTeam::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/pilotos"
+
+  get "pages/fotos"
+
+  match '/home', :to => 'pages#home'
+  match '/pilotos', :to => 'pages#pilotos'
+  match '/fotos', :to => 'pages#fotos'
+
+  root :to => 'pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
