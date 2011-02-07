@@ -85,8 +85,12 @@ a:visited {
 }
 
 .round {
-    -moz-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-box-radius: 3px 3px 3px 3px;
+    box-radius: 3px 3px 3px 3px;
     -moz-box-shadow:inset 0px 0px 12px 2px #000000;
+    -webkit-box-shadow:inset 0px 0px 12px 2px #000000;
+    box-shadow:inset 0px 0px 12px 2px #000000;
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
