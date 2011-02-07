@@ -45,7 +45,7 @@ body {
 
 .section {
     background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
-    width: 730px;
+    width: 706px;
     float: left;
     text-align: center;
 
@@ -86,8 +86,7 @@ a:visited {
 
 .round {
     -moz-border-radius: 10px 10px 10px 10px;
-    -moz-box-shadow:inset 0px 0px 22px #000000;
-    -moz-box-shadow:outset 0px 0px 10px #000000;
+    -moz-box-shadow:inset 0px 0px 12px 2px #000000;
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
