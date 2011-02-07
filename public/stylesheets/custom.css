@@ -21,7 +21,7 @@ root {
 }
 
 body {
-    background: #000000;
+    background-image: url(http://static.desktopnexus.com/thumbnails/142350-bigthumbnail.jpg);
 }
 
 .header {
@@ -31,23 +31,23 @@ body {
 }
 
 .nav {
-    background-color: #AAAAAA;
+    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
     text-align: center;
     float: left;
     width: auto;
 }
 .parceiros {
-    background-color: #AAAAAA;
+    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
     text-align: center;
     float: right;
     width: auto;
 }
 
 .section {
-    background-color: #AAAAAA;
+    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
     width: 730px;
     float: left;
-        text-align: center;
+    text-align: center;
 
 }
 
@@ -76,12 +76,12 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #444;
     text-decoration: underline;
 }
 
 a:visited {
-    color: #222;
+    color: #000;
 }
 
 .round {
