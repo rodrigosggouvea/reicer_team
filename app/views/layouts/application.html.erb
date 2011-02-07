@@ -13,22 +13,32 @@
 
   </head>
   <body>
-    <div>
+    <div class="container">
       <header>
         <%= image_tag("Header_team.jpg", :alt => "Liga REICER") %>
       </header>
-      <br/>
-      <nav>
+      <nav class="round nav">
         <ul>
-          <%= link_to "Home", 'home' %>
-          <%= link_to "Pilotos", 'pilotos' %>
-          <%= link_to "Fotos", 'fotos' %>
-          <%= link_to "Fórum", 'http://ligareicer.forumbrasil.net/' %><br/>
+          <%= link_to "HOME", 'home' %><br/>
+          <%= link_to "PILOTOS", 'pilotos' %><br/>
+          <%= link_to "FOTOS", 'fotos' %><br/>
+          <%= link_to "FÓRUM", 'http://ligareicer.forumbrasil.net/' %><br/>
         </ul>
       </nav>
-
+      <section class="round section">
       <%= yield %>
-
+      </section>
+      <nav class="round parceiros">
+        <ul>
+          <%= link_to "LIGA REICER", 'fotos' %><br/>
+          <%= link_to "Rfactor", 'home' %><br/>
+          <%= link_to "Rfactor Central", 'pilotos' %><br/>
+          <%= link_to "Rádio", 'http://ligareicer.forumbrasil.net/' %><br/>
+        </ul>
+      </nav>
+      <br/>
+      <br/>
+      <br/>
     </div>
   </body>
 </html>
