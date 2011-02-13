@@ -1,0 +1,99 @@
+/* 
+    Document   : custom
+    Created on : 01/02/2011, 20:02:54
+    Author     : rgouvea
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+    background: #300;
+}
+
+.container {
+    width: 1024px;
+    background-color: black;
+}
+
+body {
+    background-image: url(http://img200.imageshack.us/img200/39/metal13.jpg);
+}
+
+.header {
+    float: left;
+    background: #450000;
+    width: auto;
+}
+
+.nav {
+    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
+    text-align: center;
+    float: left;
+    width: auto;
+}
+.parceiros {
+    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
+    text-align: center;
+    float: right;
+    width: auto;
+}
+
+.section {
+    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
+    width: 695px;
+    float: left;
+    text-align: center;
+
+}
+
+
+.download_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: auto;
+    color: #fff;
+    background: #990000;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 20px;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+a:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000;
+}
+
+.round {
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-box-radius: 3px 3px 3px 3px;
+    box-radius: 3px 3px 3px 3px;
+    -moz-box-shadow:inset 0px 0px 12px 2px #000000;
+    -webkit-box-shadow:inset 0px 0px 12px 2px #000000;
+    box-shadow:inset 0px 0px 12px 2px #000000;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 0px 5px 5px;
+}

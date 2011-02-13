@@ -21,7 +21,8 @@ root {
 }
 
 body {
-    background-image: url(http://img200.imageshack.us/img200/39/metal13.jpg);
+    /*    background-image: url(http://img200.imageshack.us/img200/39/metal13.jpg);*/
+    background-color: black;
 }
 
 .header {
@@ -30,25 +31,27 @@ body {
     width: auto;
 }
 
+.corpo {
+    height: auto;
+}
+
 .nav {
-    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
     text-align: center;
     float: left;
-    width: auto;
+    width: 120px;
 }
 .parceiros {
-    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
     text-align: center;
     float: right;
-    width: auto;
+    width: 140px;
 }
 
 .section {
-    background-image: url(http://www.thewebupdater.com/simpledesktops/patterns/downloads/MetalPatt01.jpg);
-    width: 695px;
     float: left;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: center;
-
+    width: 734px;
 }
 
 
@@ -69,7 +72,7 @@ body {
 }
 
 a {
-    color: #000;
+    color: #ff;
     text-decoration: none;
     font-weight: bold;
     font-size: 13px;
@@ -81,7 +84,7 @@ a:hover {
 }
 
 a:visited {
-    color: #000;
+    color: #fff;
 }
 
 .round {

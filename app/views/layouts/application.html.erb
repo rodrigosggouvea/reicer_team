@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Equipe REICER de Rfactor </title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <link type="text/css" href="css/reicer_team_style/jquery-ui-1.8.9.custom.css" rel="Stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.9.custom.min.js"></script>
     <%= csrf_meta_tag %>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -10,35 +14,33 @@
     <%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
     <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
-
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="ui-state-default ui-corner-all">
         <%= image_tag("Header_team.jpg", :alt => "Liga REICER") %>
       </header>
-      <nav class="round nav">
-        <ul>
-          <%= link_to "HOME", 'home' %><br/>
-          <%= link_to "PILOTOS", 'pilotos' %><br/>
-          <%= link_to "FOTOS", 'fotos' %><br/>
-          <%= link_to "FÓRUM", 'http://ligareicer.forumbrasil.net/' %><br/>
-        </ul>
-      </nav>
-      <section class="round section">
-      <%= yield %>
-      </section>
-      <nav class="round parceiros">
-        <ul>
-          <%= link_to image_tag("ReicerLeague.gif", :alt => "Liga REICER"), 'http://ligareicer.heroku.com' %><br/>
-          <%= link_to image_tag("Rfactor.jpg", :alt => "Página do jogo Rfactor"), 'http://www.rfactor.net/' %><br/>
-          <%= link_to image_tag("RfactorCentral.jpg", :alt => "Rfactor Central"), 'http://www.rfactorcentral.com/' %><br/>
-          <%= link_to "Speed Vocalnit", 'http://www.speedvocalnit.com/' %><br/>
-        </ul>
-      </nav>
-      <br/>
-      <br/>
-      <br/>
+        <nav class="nav">
+          <div class="ui-widget-header ui-corner-top">Navegação</div>
+          <div class="ui-widget-content ui-corner-bottom ">
+            <%= link_to "HOME", 'home' %><br/>
+            <%= link_to "PILOTOS", 'pilotos' %><br/>
+            <%= link_to "FOTOS", 'fotos' %><br/>
+            <%= link_to "FÓRUM", 'http://ligareicer.forumbrasil.net/' %><br/>
+          </div>
+        </nav>
+        <section class="section">
+          <%= yield %>
+        </section>
+        <nav class="parceiros">
+          <div class="ui-widget-header ui-corner-top">Parceiros</div>
+          <div class="ui-widget-content ui-corner-bottom">
+            <%= link_to image_tag("ReicerLeague.gif", :alt => "Liga REICER"), 'http://ligareicer.heroku.com' %><br/>
+            <%= link_to image_tag("Rfactor.jpg", :alt => "Página do jogo Rfactor"), 'http://www.rfactor.net/' %><br/>
+            <%= link_to image_tag("RfactorCentral.jpg", :alt => "Rfactor Central"), 'http://www.rfactorcentral.com/' %><br/>
+            <%= link_to "Speed Vocalnit", 'http://www.speedvocalnit.com/' %><br/>
+          </div>
+        </nav>
     </div>
   </body>
 </html>
