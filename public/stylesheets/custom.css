@@ -13,7 +13,6 @@
 
 root { 
     display: block;
-    background: #300;
 }
 
 .container {
@@ -21,8 +20,8 @@ root {
 }
 
 body {
-    /*    background-image: url(http://img200.imageshack.us/img200/39/metal13.jpg);*/
-    background-color: black;
+    background: url(images/gradient.png) 0% 0% repeat-x;
+    background-color: #000000;
 }
 
 .header {
